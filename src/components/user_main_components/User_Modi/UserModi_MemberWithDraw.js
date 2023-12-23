@@ -4,7 +4,8 @@ import { useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from 'react-redux';
 import { url } from '../../../config';
 import SwalCustomAlert from "../../Alerts/SwalCustomAlert";
-import { setToken } from "/Users/baghaengbog/Desktop/Study/CatDogReact/src/actions.js";
+import {setToken} from "../../../actions";
+
 
 function UserModi_MemberWithDraw() {
     const [user, setUser] = useState({ id: "", password: "" });
